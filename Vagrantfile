@@ -6,11 +6,11 @@ end
 Vagrant.configure("2") do |config|
 
   config.vm.box = "base"
-  
+
   config.vm.define "db" do |db|
     db.vm.box = "ubuntu/xenial64"
   end
-
+# 
   config.vm.define "app" do |app|
     app.vm.box = "ubuntu/xenial64"
 
