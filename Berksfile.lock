@@ -1,0 +1,26 @@
+DEPENDENCIES
+  db
+    git: git@github.com:Adnaan-m/DB_Repo.git
+    revision: 4f1c8aa572e64f5a7abe0d55c2cceb36684b9a2f
+  node
+    git: git@github.com:Adnaan-m/Node_App.git
+    revision: 4beca152c98a4e6a7ae47a751ab0a41bbe8ac784
+
+GRAPH
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  db (0.1.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  node (0.1.0)
+    nodejs (~> 5.0.0)
+  nodejs (5.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  windows (5.1.4)
