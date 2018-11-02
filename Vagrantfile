@@ -9,6 +9,9 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "db" do |db|
     db.vm.box = "ubuntu/xenial64"
+    app.vm.provision "chef_solo" do |chef|
+      chef.add_recipe "node::default"
+    end
   end
 
   config.vm.define "app" do |app|
